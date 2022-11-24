@@ -6,6 +6,8 @@ import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 import { SidebarComponent } from './dashboard/sidebar/sidebar.component';
 import { NavbarComponent } from './dashboard/navbar/navbar.component';
 import { FooterComponent } from './dashboard/footer/footer.component';
+import { MaterialModule } from './material/material.module';
+import { CategoryComponent } from './components/category/category.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,8 @@ import { FooterComponent } from './dashboard/footer/footer.component';
     DashboardComponent,
     SidebarComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CategoryComponent
   ],
   imports: [
     BrowserModule,
